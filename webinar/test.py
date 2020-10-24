@@ -34,6 +34,9 @@ def find_cheapest_flight():
     up= int(input("Enter New flight price  "))
     return un, up"""
 
+def sendemail():
+        
+
 def foo():
     lowest_flight_name=""
     lowest_flight_price=100000000
@@ -42,6 +45,7 @@ def foo():
         lowest_flight_price= updated_price
         lowest_flight_name= updated_name
         #ALERT function
+        sendemail()
     print(lowest_flight_name)
     print(lowest_flight_price)
 
